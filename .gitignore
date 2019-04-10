@@ -1,8 +1,0 @@
-#Gitignore file for Ccode repository
-#Ignore
-*.o
-*.out
-*.exe
-*.dll
-db.php
-
