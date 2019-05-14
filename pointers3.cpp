@@ -8,7 +8,7 @@ int main(){
 	pointer = integers;
 	//print array
 	cout<<"print intergers[] array"<<"\n\n";
-	for (int n = 0; n < 5; n++){
+	for (int n = 0; n < 10; n++){
 		//integers[n] = 0;
 	cout << integers[n]<<"\n";
 	}
@@ -22,6 +22,12 @@ int main(){
 	//printarray memory locations
 	cout<<"\nprint &intergers[] memory address "<<"\n\n";
 	for (int n = 0; n < 10; n++){
+	  cout << &integers[n]<<"\n";
+	  cout<<endl;
+	}
+	//printarray memory locations
+	cout<<"\nprint &intergers[] memory address "<<"\n\n";
+	for (int n = 0; n < 5; n++){
 	  cout << &integers[n]<<"\n";
 	  cout<<endl;
 	}
