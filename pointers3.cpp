@@ -28,7 +28,7 @@ int main(){
 	//printarray memory locations
 	cout<<"\nprint &intergers[] memory address "<<"\n\n";
 	for (int n = 0; n < 5; n++){
-	  cout << &integers[n]<<"\n";
+	  cout << integers[n]<<"\n";
 	  cout<<endl;
 	}
 	return 0;
